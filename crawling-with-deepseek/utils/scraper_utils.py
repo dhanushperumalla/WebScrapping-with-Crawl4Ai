@@ -3,7 +3,7 @@ import os
 from typing import List, Set, Tuple
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path="dev.env")
+load_dotenv(dotenv_path=".env")
 
 
 from crawl4ai import (
